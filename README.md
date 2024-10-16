@@ -27,6 +27,29 @@ This project requires the following Python libraries:
 - scikit-learn
 
 You can install them using pip:
-
 ```bash
 pip install pandas yfinance matplotlib scikit-learn
+```
+
+**Usage:**
+
+- Clone this repository.
+- Run the script tata_motors_prediction.py.
+- The script will download data, train the model, predict the next day's closing price, and generate the visualization.
+
+**Output:**
+
+The script will print the predicted closing price for the next day and display a plot comparing the actual closing prices of the last month and the predicted price for the next day.
+
+**Limitations:**
+
+This is a simple example using Linear Regression. More complex models may be needed for better accuracy.
+Stock price prediction is inherently uncertain and past performance is not indicative of future results.
+
+**Contributing:**
+
+We welcome contributions to improve this project. Please open a pull request with any enhancements or suggestions.
+
+**Credits:**
+
+Yahoo Finance for providing stock data.
